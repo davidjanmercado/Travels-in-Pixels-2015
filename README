@@ -1,0 +1,30 @@
+TRAVEL IN PIXELS 2015
+Created by David Jan Mercado 2016
+www.davidjanmercado.com
+
+—
+
+Hi there! Here’s a list of things you might want to know:
+
+1) How to export photos from the Photos app with GPS data included?
+File -> Export -> Export photo/s. Tick ‘Location Information’. Make the JPEG quality ‘low’ and size ‘small’ especially when you’re exporting a massive amount of photos. Finally, click ‘Export’.
+
+2) How to save data to a CSV file?
+Install exiftool then run this in Terminal:
+exiftool -csv -r -filename -gps:GPSLatitude -gps:GPSLongitude -createdate -imagedescription -imageheight -imagewidth [file location] > \[filename.csv]
+*Change the values inside []
+
+3) How to convert latitude and longitude values (degrees, minutes, seconds) into decimal values?
+I’ve uploaded the script on my GitHub account.
+
+4) Why can’t I access your gps data?
+I didn’t upload it due to privacy concerns. I did however included gpstestdata.csv here for you to experiment on.
+
+5) What are the ‘abs’ in comments for?
+Abs means ‘abstract’. I used these lines of code to create the art pieces I wanted. I did a bit of tweaking though to get the look I’m aiming for.
+
+6) Which tool did you use to create the map?
+Tile Mill https://www.mapbox.com/tilemill/
+
+—
+Contact me if you got any more questions. Cheers!
